@@ -66,6 +66,8 @@
 #TCL - files
 #########
 !*.tcl
+SIMD_top/create_project.tcl
+SIMD_top/create_bd.tcl
 #########
 #Journal - files
 #########
