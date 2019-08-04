@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul 28 23:29:54 2019
+# Process ID: 11384
+# Current directory: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4852 C:\Users\Acer\Desktop\ADS\ADSL_Project_v_1\SIMD_top\SIMD_top\SIMD_top.xpr
+# Log file: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/vivado.log
+# Journal file: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.xpr
+update_compile_order -fileset sources_1

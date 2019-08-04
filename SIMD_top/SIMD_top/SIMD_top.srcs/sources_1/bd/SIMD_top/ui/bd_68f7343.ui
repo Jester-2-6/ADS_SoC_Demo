@@ -1,0 +1,49 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace inst video_generator_0 -pg 1 -lvl 1 -y 850 -defaultsOSRD
+preplace inst fifo_wr_control -pg 1 -lvl 1 -y 310 -defaultsOSRD
+preplace inst fifo_read_ctrl -pg 1 -lvl 2 -y 1020 -defaultsOSRD
+preplace inst fifo_to_axi4_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst frame_rd_write_ctrl -pg 1 -lvl 1 -y 440 -defaultsOSRD
+preplace inst reset_n -pg 1 -lvl 1 -y 680 -defaultsOSRD
+preplace inst fifo_to_axi4_const -pg 1 -lvl 2 -y 1140 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 2 -y 620 -defaultsOSRD
+preplace inst fifo_generator_1 -pg 1 -lvl 2 -y 840 -defaultsOSRD
+preplace inst video_monitor_0 -pg 1 -lvl 3 -y 1080 -defaultsOSRD
+preplace inst mem_slave_top_wrapper_0 -pg 1 -lvl 1 -y 560 -defaultsOSRD
+preplace inst axi4_to_fifo_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 0 3 50 1070 560 1230 1040
+preplace netloc xlslice_1_Dout 1 2 1 1140
+preplace netloc video_monitor_0_de_out 1 1 3 610 1300 NJ 1300 1410
+preplace netloc video_generator_0_Y_out 1 0 2 80 1030 460
+preplace netloc video_generator_0_SAV_out 1 0 2 120 1020 420
+preplace netloc video_generator_0_de_out 1 0 2 100 1040 450
+preplace netloc reset_n_Res 1 1 1 480
+preplace netloc fifo_read_ctrl_Res 1 1 2 600 1250 1060
+preplace netloc fifo_generator_0_rd_data_count 1 0 3 20 1320 NJ 1320 1110
+preplace netloc video_generator_0_CbCr_out 1 0 2 110 1010 430
+preplace netloc fifo_wr_control_dout 1 1 1 490
+preplace netloc fifo_to_axi4_0_fifo_rd 1 1 1 520
+preplace netloc axi4_to_fifo_0_axi 1 1 2 580 1200 1090
+preplace netloc video_generator_0_clk 1 0 3 30 1050 530 1260 1130
+preplace netloc fifo_generator_1_empty 1 1 1 620
+preplace netloc fifo_generator_0_full 1 0 2 130 990 540J
+preplace netloc xlconstant_0_dout 1 0 3 40 1060 550 1270 1050
+preplace netloc fifo_wr_control_Res 1 1 1 500
+preplace netloc fifo_generator_1_wr_data_count 1 1 2 570 1240 1070
+preplace netloc fifo_to_axi4_0_done 1 1 2 470 1280 1170
+preplace netloc fifo_to_axi4_0_axi 1 1 1 440
+preplace netloc axi_interconnect_0_M00_AXI 1 0 3 90 1220 NJ 1220 1100
+preplace netloc fifo_generator_1_dout 1 1 1 630
+preplace netloc video_generator_0_reset 1 0 3 10 1080 510 1290 1160
+preplace netloc util_vector_logic_1_Res 1 0 2 70 1000 440
+preplace netloc axi4_to_fifo_0_fifo_wr 1 1 2 590 1210 1080
+preplace netloc xlslice_0_Dout 1 2 1 1150
+preplace netloc axi4_to_fifo_0_idle 1 0 3 60 1310 NJ 1310 1120
+levelinfo -pg 1 -10 280 840 1290 1430 -top 0 -bot 1330
+",
+}
+0

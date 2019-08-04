@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SIMD_top_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SIMD_top_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13281955986799fs"></ZoomStartTime>
+      <ZoomEndTime time="72584744096800fs"></ZoomEndTime>
+      <Cursor1Time time="71236020310000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="93" />
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARADDR" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARBURST" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARCACHE" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARID" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARLEN" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARREADY" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARREADY[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARREADY[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARSIZE" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_ARVALID" type="logic">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_RDATA" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_RDATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_RDATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_RLAST" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_RLAST[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_RLAST[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_RREADY" type="logic">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_RREADY</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_RRESP" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_axi_RVALID" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_axi_RVALID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_axi_RVALID[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_fifo_wr_FULL" type="logic">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_fifo_wr_FULL</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_fifo_wr_FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_fifo_wr_WR_DATA" type="array">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_fifo_wr_WR_DATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_fifo_wr_WR_DATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_fifo_wr_WR_EN" type="logic">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_fifo_wr_WR_EN</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_fifo_wr_WR_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi4_to_fifo_0_idle" type="logic">
+      <obj_property name="ElementShortName">axi4_to_fifo_0_idle</obj_property>
+      <obj_property name="ObjectShortName">axi4_to_fifo_0_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARBURST" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARCACHE" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARID" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARLEN" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARLOCK" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARLOCK[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARPROT" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARREADY" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARSIZE" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWBURST" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWCACHE" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWID" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWLEN" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWLOCK" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWLOCK[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWPROT" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWREADY" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWSIZE" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_BID" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_BREADY" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_BRESP" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_BVALID" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RDATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RDATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RID" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RLAST" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RLAST</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RREADY" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RRESP" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_RVALID" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WDATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WDATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_WLAST" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_WREADY" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_WSTRB" type="array">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WSTRB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WSTRB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/axi_interconnect_0_M00_AXI_WVALID" type="logic">
+      <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_generator_0_full" type="logic">
+      <obj_property name="ElementShortName">fifo_generator_0_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_0_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_generator_0_rd_data_count" type="array">
+      <obj_property name="ElementShortName">fifo_generator_0_rd_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_0_rd_data_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_generator_1_dout" type="array">
+      <obj_property name="ElementShortName">fifo_generator_1_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_1_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_generator_1_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_generator_1_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_1_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_generator_1_wr_data_count" type="array">
+      <obj_property name="ElementShortName">fifo_generator_1_wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_1_wr_data_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_read_ctrl_Res" type="array">
+      <obj_property name="ElementShortName">fifo_read_ctrl_Res[0:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ctrl_Res[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWADDR" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWBURST" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWCACHE" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWID" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWLEN" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWREADY" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWSIZE" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_AWVALID" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_BREADY" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_BREADY</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_BRESP" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_BVALID" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_BVALID</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_WDATA" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_WDATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_WDATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_WLAST" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_WLAST</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_WREADY" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_WREADY</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_WSTRB" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_WSTRB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_WSTRB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_axi_WVALID" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_axi_WVALID</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_axi_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_done" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_done</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_fifo_rd_EMPTY" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_fifo_rd_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_fifo_rd_EMPTY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_fifo_rd_RD_DATA" type="array">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_fifo_rd_RD_DATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_fifo_rd_RD_DATA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_to_axi4_0_fifo_rd_RD_EN" type="logic">
+      <obj_property name="ElementShortName">fifo_to_axi4_0_fifo_rd_RD_EN</obj_property>
+      <obj_property name="ObjectShortName">fifo_to_axi4_0_fifo_rd_RD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_wr_control_Res" type="array">
+      <obj_property name="ElementShortName">fifo_wr_control_Res[0:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_control_Res[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/fifo_wr_control_dout" type="array">
+      <obj_property name="ElementShortName">fifo_wr_control_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_control_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/reset_n_Res" type="array">
+      <obj_property name="ElementShortName">reset_n_Res[0:0]</obj_property>
+      <obj_property name="ObjectShortName">reset_n_Res[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/util_vector_logic_1_Res" type="array">
+      <obj_property name="ElementShortName">util_vector_logic_1_Res[0:0]</obj_property>
+      <obj_property name="ObjectShortName">util_vector_logic_1_Res[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_CbCr_out" type="array">
+      <obj_property name="ElementShortName">video_generator_0_CbCr_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_CbCr_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_SAV_out" type="logic">
+      <obj_property name="ElementShortName">video_generator_0_SAV_out</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_SAV_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_Y_out" type="array">
+      <obj_property name="ElementShortName">video_generator_0_Y_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_Y_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_clk" type="logic">
+      <obj_property name="ElementShortName">video_generator_0_clk</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_de_out" type="logic">
+      <obj_property name="ElementShortName">video_generator_0_de_out</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_de_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_generator_0_reset" type="logic">
+      <obj_property name="ElementShortName">video_generator_0_reset</obj_property>
+      <obj_property name="ObjectShortName">video_generator_0_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/video_monitor_0_de_out" type="logic">
+      <obj_property name="ElementShortName">video_monitor_0_de_out</obj_property>
+      <obj_property name="ObjectShortName">video_monitor_0_de_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/xlconstant_0_dout" type="array">
+      <obj_property name="ElementShortName">xlconstant_0_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconstant_0_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/xlconstant_1_dout" type="array">
+      <obj_property name="ElementShortName">xlconstant_1_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconstant_1_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/xlslice_0_Dout" type="array">
+      <obj_property name="ElementShortName">xlslice_0_Dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">xlslice_0_Dout[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMD_top_wrapper/SIMD_top_i/xlslice_1_Dout" type="array">
+      <obj_property name="ElementShortName">xlslice_1_Dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">xlslice_1_Dout[9:0]</obj_property>
+   </wvobject>
+</wave_config>

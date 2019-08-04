@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jul 29 11:44:16 2019
+# Process ID: 7712
+# Current directory: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8876 C:\Users\Acer\Desktop\ADS\ADSL_Project_v_1\SIMD_top\SIMD_top\SIMD_top.xpr
+# Log file: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/vivado.log
+# Journal file: C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/SIMD_top.bd}
+startgroup
+make_bd_pins_external  [get_bd_pins axi4_to_fifo_0/done]
+endgroup
+undo
+make_wrapper -files [get_files C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/SIMD_top.bd] -top
+import_files -force -norecurse C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/hdl/SIMD_top_wrapper.v
+generate_target Simulation [get_files C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/SIMD_top.bd]
+export_ip_user_files -of_objects [get_files C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/SIMD_top.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.srcs/sources_1/bd/SIMD_top/SIMD_top.bd] -directory C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.ip_user_files -ipstatic_source_dir C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.cache/compile_simlib/modelsim} {questa=C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.cache/compile_simlib/questa} {riviera=C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.cache/compile_simlib/riviera} {activehdl=C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source SIMD_top_wrapper.tcl
+add_wave {{/SIMD_top_wrapper/SIMD_top_i}} 
+step
+run all
+save_wave_config {C:/Users/Acer/Desktop/ADS/ADSL_Project_v_1/SIMD_top/SIMD_top/SIMD_top_wrapper_behav.wcfg}
+close_sim

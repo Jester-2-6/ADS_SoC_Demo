@@ -1,0 +1,1 @@
+ffmpeg -i test_1080p.bmp -s:v 1920x1080 -pix_fmt:v yuv422p10 -c:v rawvideo test_1080p.yuv

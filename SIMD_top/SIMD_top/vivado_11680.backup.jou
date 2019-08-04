@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Aug  4 21:17:05 2019
+# Process ID: 11680
+# Current directory: E:/SEM7/My_work/ADS/ADS_SoC_Demo/SIMD_top/SIMD_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12612 E:\SEM7\My_work\ADS\ADS_SoC_Demo\SIMD_top\SIMD_top\SIMD_top.xpr
+# Log file: E:/SEM7/My_work/ADS/ADS_SoC_Demo/SIMD_top/SIMD_top/vivado.log
+# Journal file: E:/SEM7/My_work/ADS/ADS_SoC_Demo/SIMD_top/SIMD_top\vivado.jou
+#-----------------------------------------------------------
+start_gui
